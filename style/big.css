@@ -128,6 +128,44 @@ h6 {
 	background-color:#1f3862 !important;
 }
 
+.topPanelContent {
+	width: 850px;
+	margin: 0 auto;
+}
+
+.profile_img img {
+	border-radius: 200px;
+	padding: 7px 0px;
+}
+
+.topPanelContent ul {
+	display: inline-block;
+	margin: 0px;
+	width: 100%;
+}
+
+.topPanelContent ul li {
+	float: left;
+	/*margin: 0px;*/
+}
+
+.second_content {
+	margin-top: 70px !important;
+	width: 460px !important;
+	margin-left: 50px;
+}
+
+.topPanelHeader {
+	color: #fff;
+	font-size: 30px;
+	height: 30px;
+}
+
+.topPanelAboutMe p {
+	color: #fff;
+}
+
+
 
 /*===============================================*/
 /*===    3. Theme Specific Content Styles     ===*/
@@ -221,6 +259,7 @@ p {
 #topPanelHandle{
 	position: absolute;
 	bottom: -20px;
+/*	bottom: 386px;*/
 	right: 0;
 	float: right;
 	padding: 4px 0px 2px 12px;
@@ -255,7 +294,7 @@ p {
 }
 
 #topPanel .clickMe{
-	height: 350px;
+	height: 0px;
 }
 
 .clickMe .mapDetails{
