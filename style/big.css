@@ -103,7 +103,8 @@ h5 {
 }
 
 #main h5:hover {
-background: url(../images/section-bg-hover.png) no-repeat; color:#1f3862; text-shadow: 2px 2px 0 #ffffff;
+background: url(../images/section-bg-hover.png) no-repeat; 
+color:#1f3862; text-shadow: 2px 2px 0 #ffffff;
 }
 
 
@@ -243,8 +244,16 @@ p {
 	background:url(../images/linkedin-big.png) no-repeat;
 }
 
-.skills li{background-color:#caced7; padding:0px 5px !important; margin:4px 0px !important; color: #333; }
-.skills li:hover{background-color:#1f3862; color:#fff;}
+.skills li{
+background-color:#caced7;
+padding:0px 5px !important; 
+margin:4px 0px !important; 
+color: #333; 
+}
+.skills li:hover{
+background-color:#1f3862; 
+color:#fff;
+}
 
 
 @charset "utf-8";
