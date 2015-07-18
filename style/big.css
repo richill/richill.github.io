@@ -58,13 +58,17 @@ h1 {
 	text-transform: uppercase;
 	font-weight:bold;
 	font-size:70px;
+	/*padding-bottom: 20px;*/
+
 	
 }
+
 
 h2 {
 	color:#DF1E37;
 	font-family: 'Oswald';
 	margin-top:10px;
+
 }
 
 h3 {
@@ -99,7 +103,8 @@ h5 {
 }
 
 #main h5:hover {
-background: url(../images/section-bg-hover.png) no-repeat; color:#1f3862; text-shadow: 2px 2px 0 #ffffff;
+background: url(../images/section-bg-hover.png) no-repeat; 
+color:#1f3862; text-shadow: 2px 2px 0 #ffffff;
 }
 
 
@@ -122,15 +127,23 @@ h6 {
 
 #topPanel {
 	background-color: #1f3862 !important;
+	/*border-bottom: 300px;*/
 	border-bottom:1px solid #000;
+
+
 }
+
 #topPanelHandle {
 	background-color:#1f3862 !important;
+
+
 }
 
 .topPanelContent {
 	width: 850px;
 	margin: 0 auto;
+	padding-top: 0px;
+	
 }
 
 .profile_img img {
@@ -159,6 +172,7 @@ h6 {
 	color: #fff;
 	font-size: 30px;
 	height: 30px;
+	padding-bottom:0px;
 }
 
 .topPanelAboutMe p {
@@ -230,8 +244,16 @@ p {
 	background:url(../images/linkedin-big.png) no-repeat;
 }
 
-.skills li{background-color:#caced7; padding:0px 5px !important; margin:4px 0px !important; color: #333; }
-.skills li:hover{background-color:#1f3862; color:#fff;}
+.skills li{
+background-color:#caced7;
+padding:0px 5px !important; 
+margin:4px 0px !important; 
+color: #333; 
+}
+.skills li:hover{
+background-color:#1f3862; 
+color:#fff;
+}
 
 
 @charset "utf-8";
