@@ -155,6 +155,18 @@ li {
 	margin:0 auto;
 }
 
+.current_status {
+	text-transform: capitalize;
+	font-weight: bold;
+	letter-spacing: 2px;
+	padding-left: 8px;
+	margin-top: 5px;
+	color: #142950;
+	background: url(../images/section-bg.png) no-repeat;
+	font-family: 'Oswald';
+	font-size: 15px;
+}
+
 
 /*===========================*/
 /*===  3.1 Contact Form   ===*/
