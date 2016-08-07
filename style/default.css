@@ -435,11 +435,21 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fafafa', endCo
 	padding:5px 0px 40px 0px;
 }
 
+.portfolio_gallery_title {
+	font-size: 11px;
+	text-align: justify;
+	line-height: 20px;
+}
+
 .best_work_gallery {
 	width:76px;
 	height:76px;
 	float:left;
 	margin:0px 16px 16px 0px;
+}
+
+.gallery {
+	margin-bottom: 8px;
 }
 
 .gallery li {
