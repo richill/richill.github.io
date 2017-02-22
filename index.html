@@ -474,6 +474,93 @@
     <!--contents end-->
   </div>
   <!--wrapper end-->
+
+  <!-- scripts -->
+  <script src="js/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script>
+  <script type="text/javascript" charset="utf-8">
+  $(document).ready(function(){
+   $("a[rel=gallery]").fancybox({
+          'transitionIn'    : 'none',
+          'transitionOut'   : 'none',
+          'titlePosition'   : 'over',
+          'titleFormat'   : function(title, currentArray, currentIndex, currentOpts) {
+            return '<span id="fancybox-title-over">Image ' + (currentIndex + 1) + ' / ' + currentArray.length + (title.length ? ' &nbsp; ' + title : '') + '</span>';
+          }
+        });
+   
+
+        $('#bandar').css('display','none');
+        var sentParts = window.location.href.toString().split('?');
+        if(sentParts.length > 1)
+        if(sentParts[1] ='sent'){
+        $('#mydiv').css('display','');
+                setTimeout(function() {
+                $('#mydiv').fadeOut('fast');
+            }, 3000);
+        }     
+    });
+    </script>
+    <script type="text/javascript" src="js/twitter.js"></script>      
+    <script type="text/javascript">
+  </script>
+  <!-- scripts -->
+
+  <!-- Contact Form Start -->  
+  <div id="popupContact">  
+          <a id="popupContactClose"><img src="images/x.gif" alt="Close" /></a>  
+          <h2>Lets Meet!</h2>  
+          <p id="contactArea">  
+              <div id="contact-form">
+
+              <form name="contact" action="<?=$_SERVER['PHP_SELF']?>" method="post" onsubmit="return validateForm();">
+                  <table cellpadding="8" cellspacing="10">
+                      <tr>
+                          <td><label>Your Name <span class="req">*</span></label></td>
+                          
+                      </tr>
+                      <tr>
+                          <td><input type="text"  id="sender_name"  name="sender_name" /></td>
+                      </tr>
+                      
+                      <tr>
+                        <td><label>Your E-Mail <span class="req">*</span></label></td>
+                      </tr>
+                      
+                      <tr>
+                        <td ><input type="text" id="sender_email" name="sender_email" /></td>
+                      </tr>
+                      
+                      <tr>
+                        <td><label>Message </label></td>
+                      </tr>
+                      
+                      <tr>
+                        <td ><textarea id="sender_message" name="sender_message" cols="" rows="" style="width:380px; height:80px;"></textarea></td>
+                      </tr>
+                      
+                      <tr>
+                        <td>
+                            <input type="submit" name="submitForm" value="Submit" class="button m grey-gloss" />
+                            <span id="bandar"><img src="images/loader.gif" alt="Progress indicator..." /></span>
+                          </td>
+                      </tr>
+                      
+                      <tr>
+                          <td colspan="4">
+                          <p id="form_errors"></p>
+                          <p id="form_thanks"></p>
+                          </td>
+                      </tr>
+                  </table>
+              </form>
+          
+                  </div>
+              
+              
+          </p>  
+  </div>   
+  <div id="backgroundPopup"></div>
+  <!-- Contact Form End -->
     
       
 </body>
