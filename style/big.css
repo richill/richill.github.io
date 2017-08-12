@@ -291,6 +291,29 @@ p {
 	color: #fff;
 }
 
+.skill_set {
+	text-transform: capitalize;
+	font-weight: bold;
+	letter-spacing: 2px;
+	padding-left: 8px;
+	margin-top: 5px;
+	color: #142950;
+	background: url(../images/section-bg.png) no-repeat;
+	font-family: 'Oswald';
+	font-size: 14px;
+	background-size: 600px 600px;
+	margin-bottom: 18px;
+	padding: 5px 12px;
+}
+
+.skill_set .header_skill {
+	margin-bottom: 10px;
+}
+
+.skill_set ul li {
+	font-size: 10px;
+}
+
 /* - -- --- ---- click me ---- --- -- - */
 
 .clickMe{
