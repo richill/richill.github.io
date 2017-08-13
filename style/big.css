@@ -91,11 +91,17 @@ h5 {
 	font-family: 'Oswald';
 	text-transform: uppercase;
 	height: 93px;
-	width: 610px;
+	/*width: 610px;*/
 	line-height: 93px;
-	font-size:35px;
+	/*font-size:35px;*/
 	padding-left:10px;
 	margin-bottom:15px;
+}
+@media only screen and (min-width: 560px) {
+	#main h5 {
+		width: 610px;
+		font-size:35px;
+	}	
 }
 
 #main h5:hover {
@@ -129,8 +135,14 @@ h6 {
 }
 
 .topPanelContent {
-	width: 730px;
-	margin: 0 auto;
+	/*width: 730px;
+	margin: 0 auto;*/
+}
+@media only screen and (min-width: 560px) {
+	.topPanelContent {
+		width: 730px;
+		margin: 0 auto;
+	}	
 }
 
 .profile_img img {
@@ -149,9 +161,18 @@ h6 {
 }
 
 .second_content {
-	margin-top: 70px !important;
+	margin: 25px 15px 15px;
+	/*margin-top: 70px !important;
 	width: 460px !important;
-	margin-left: 50px;
+	margin-left: 50px;*/
+}
+@media only screen and (min-width: 560px) {
+	.second_content {
+		/*margin-top: 70px !important;*/
+		width: 460px !important;
+		/*margin-left: 50px;*/
+		margin: 70px 15px 9px 50px !important;
+	}	
 }
 
 .topPanelHeader {
@@ -329,8 +350,27 @@ p {
 }
 
 
-@media only screen and (max-width: 1024px) {
-	.wrap{
-		width:95%;
+
+/* - -- --- ---- media query ---- --- -- - */
+
+@media only screen and (max-width: 900px) {
+	#sidebar {
+		width:100%;
+		margin: 0px;
 	}	
 }
+
+@media only screen and (max-width: 560px) {
+	.profile_img {
+		display: none;
+	}	
+}
+
+
+
+
+
+
+
+
+

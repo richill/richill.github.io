@@ -39,9 +39,14 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 
 #wrapper {
-	width:850px;
+	/*width:850px;*/
 	margin:0 auto;
 	padding:0px 40px;
+}
+@media only screen and (min-width: 560px) {
+	#wrapper {
+		width:850px;
+	}	
 }
 
 img {
@@ -61,12 +66,23 @@ h1 {
 	float:left;
 	font-weight:bold;
 }
+@media only screen and (max-width: 560px) {
+	h1 {
+		font-size:30px !important;
+	}	
+}
 
 h2 {
 	font-size:40px;
 	text-align:left;
 	font-weight:bold;
 	line-height:50px;
+}
+@media only screen and (max-width: 560px) {
+	h2 {
+		font-size:20px !important;
+		line-height: 30px !important;
+	}	
 }
 
 h3 {
@@ -147,12 +163,17 @@ li {
 }
 
 .headerwrapper {
-	width:850px;
+	/*width:850px;*/
 	display:block;
 	margin:0 auto;
-	padding:36px 0px 0px 0px;
+	padding:36px 40px 0px;
 	height:113px;
 	margin:0 auto;
+}
+@media only screen and (min-width: 560px) {
+	.headerwrapper {
+		width:850px;
+	}	
 }
 
 .current_status {
@@ -292,9 +313,16 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fafafa', endCo
 }
 
 #main {
-	width:475px;
-	float:left;
+	/*width:475px;
+	float:left;*/
 	/* Change Float:left to Float:right for layout 2 */
+}
+
+@media only screen and (min-width: 560px) {
+	#main {
+		width:475px;
+		float:left;
+	}	
 }
 
 .section {
