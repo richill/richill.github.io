@@ -367,6 +367,18 @@ p {
 }
 
 
+@media only screen and (max-width: 370px) {
+	.content_last {
+		display: none;
+	}	
+	.listed_skills li {
+		font-size: 10px !important;
+	}
+	#topPanelHandle span {
+		font-size: 11px !important;
+	}
+}
+
 
 
 
