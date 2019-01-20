@@ -134,6 +134,7 @@ h6 {
 	background-color:#1f3862 !important;
 }
 
+
 .topPanelContent {
 	/*width: 730px;
 	margin: 0 auto;*/
@@ -284,13 +285,17 @@ p {
 #topPanelHandle{
 	position: absolute;
 	bottom: -20px;
-/*	bottom: 386px;*/
 	right: 0;
 	float: right;
 	padding: 4px 0px 2px 12px;
 	background: #222;
 	cursor: pointer;
 	margin-right:252px;
+}
+@media only screen and (max-width: 408px) {
+	#topPanelHandle {
+		bottom: -4px !important;
+	}	
 }
 
 #topPanelHandle span{
